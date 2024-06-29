@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: #101010;
+}
+.header {
+    background-color: #000;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 5%;
+    margin: 15px;
+}
+.header .logo h3 {
+    color: #fff;
+}
+.container a {
+    text-decoration: none;
+}
+.container a .Discord {
+    color: #4f5b9e;
+}
+.container a .youtube {
+    color: red;
+}
+.container a .telegram {
+    color: #039be5;
+}
+.container a .tiktok {
+    color: #000;
+}
+.container a div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 20px;
+    background-color: #c5c4c5;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container a div img {
+    width: 4%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 844px) {
+    .header .logo img {
+        width: 13%;
+    }
+    .container a div img {
+        width: 7%;
+    }    
+}
