@@ -41,6 +41,10 @@ body {
 .container a .tiktok {
     color: #000;
 }
+.container a .Instagram {
+    color: #3C005A;
+}
+
 .container a div{
     display: flex;
     align-items: center;
